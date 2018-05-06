@@ -10,5 +10,7 @@ Generate haptic feedback on iOS devices (UIFeedbackGenerator) in your U3D games
 ## How to use
 
 - Put OC script 'HapticFeedbackGenerator' in your 'Asset/Plugins/iOS' folder.
-- Just call method 'HapticFeedback.Generate(UIFeedbackType type)' in your C# script
-
+- Just call method in your C# script
+  ```
+  HapticFeedback.Generate(UIFeedbackType type)
+  ```
